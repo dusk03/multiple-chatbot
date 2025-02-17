@@ -1,9 +1,9 @@
 import React from "react";
-import Outlet from "react-router-dom";
-const dashboardLayout = () => {
+import { Outlet } from "react-router-dom";
+const DashboardLayout = () => {
   return (
-    <div className="dashboardLayouy">
-      <div className="menu"></div>
+    <div className="DashboardLayout">
+      <div className="menu">MENU</div>
       <div className="content">
         <Outlet />
       </div>
@@ -11,4 +11,4 @@ const dashboardLayout = () => {
   );
 };
 
-export default dashboardLayout;
+export default DashboardLayout;
